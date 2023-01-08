@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 export const Navbar = () => {
 	return (
 		// <!-- nav bar -->
-		
         <nav className="navbar navbar-expand-lg bg-light my-4">
             <div className="container-fluid justify-content-end">
 
@@ -18,20 +17,6 @@ export const Navbar = () => {
                 
                 {/* <!-- Nav-bar content --> */}
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    {/* <!-- Disabled nav bar content --> */}
-                    {/* <!-- <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#"> Map</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" id="emergency" href="#"> Emergency</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#"> Contact </a>
-                        </li>
-                    </ul> --> */}
-
-
 
                     {/* <!-- English/Spanish --> */}
                     <div className="btn-groups btn-group-toggle" data-toggle="buttons">

@@ -5,7 +5,7 @@ import { Context } from "../store/appContext";
 
 import "../../styles/demo.css";
 
-export const Demo = () => {
+export const ProfilePage = () => {
 	const { store, actions } = useContext(Context);
 
 	return (
@@ -15,7 +15,7 @@ export const Demo = () => {
     <div class="row m-5 p-1 justify-content-between">
         {/* <!-- Business Info --> */}
         <div id="list_of_resources" class="col-6 pt-1 justify-content-between">
-            <div class="card w-100 mt-4" style="width: 18rem;">
+            <div class="card w-100 mt-4" style={{width: "18rem"}}>
 
                 {/* <!-- Card header --> */}
                 <div id="header" class="d-flex flex-row justify-content-between">
