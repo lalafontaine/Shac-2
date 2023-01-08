@@ -30,7 +30,7 @@ export const Selection = () => {
             Food
           </label>
         </div>
-        <div class="form-checke">
+        <div class="form-check">
           <input
             class="form-check-input"
             type="checkbox"
@@ -38,7 +38,6 @@ export const Selection = () => {
             value="shelter"
           />
           <label class="form-check-label" for="shelter">
-            {" "}
             Shelter
           </label>
         </div>

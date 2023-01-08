@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import {Searchbar} from "../component/Searchbar";
 import {Card} from "../component/Card"
 import {Selection} from "../component/Selection";
+import {Review} from "../component/Review";
 
 
 export const Home = () => {
@@ -27,11 +28,11 @@ export const Home = () => {
             id="list_of_resources"
             class="col-4 pt-1 justify-content-between"
           >
-              <Card  resName="Urban Partner 1" resDescription="bla bla" resImage="" resThumb="" rating="3" resLogo="../../images/urban_partners_logo.png"/>
+              <Card  resName="Resource 1" resDescription="bla bla" rating="3" image="https://ibb.co/1Xjw9RS"/>
 
-              <Card  resName="Urban Partner 2" rating="2"/>
+              <Card  resName="Resource 2" rating="2"/>
 
-              <Card  resName="Urban Partner 3" rating="1.5"/>
+              <Card  resName="Resource 3" rating="1.5"/>
               
           </div>
 

@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import StarRating from "./StarRating";
 import logo from  "../../images/urban_partners_logo.png";
+import profilePic from "../../images/urban_partners.png";
 
 export const Card = (props)=>{
     return (
@@ -24,7 +25,7 @@ export const Card = (props)=>{
               {/* <!-- Card image --> */}
               <img
                 class="card-img-top px-2"
-                src={props.resImg}
+                src={profilePic}
                 alt="Card image cap"
               />
               {/* <!-- Card body --> */}

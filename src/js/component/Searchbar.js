@@ -3,7 +3,7 @@ import React from "react";
 export const Searchbar = () => {
     return (
         <div class="row">
-        <form class="d-flex col-6 my-4" role="search">
+        <form class="d-flex my-4" role="search">
           <input
             class="form-control"
             type="search"
