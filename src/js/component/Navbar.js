@@ -6,7 +6,7 @@ export const Navbar = () => {
   return (
     // <!-- nav bar -->
     <nav className="navbar navbar-expand-lg bg-light m-4">
-      <div className="container-fluid justify-content-end">
+      <div className="navbar-container container-fluid justify-content-end">
         {/* <!-- Brand --> */}
         <Link to="/">
           <h1 className="navbar-brand">AliveInL.A.</h1>
@@ -59,9 +59,8 @@ export const Navbar = () => {
               Español
             </label>
           </div>
-
-          {/* <!-- Login --> */}
-          <button type="button" className="btn btn-outline-primary">
+{/* login button */}
+          <button type="button" className="login-button btn btn-outline-primary">
             {" "}
             Login{" "}
           </button>

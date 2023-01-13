@@ -9,8 +9,9 @@ const Review = (props) => {
         <span>{props.review}</span>
         </div>
         <div className="col-3">
-        <span className="ms-3">{props.date}</span>
         <StarRating rating={props.rating} />
+        <span className="">{props.date}</span>
+  
         </div>
         <div className="col-4">
         <img className="avatar rounded-circle" src={avatar} alt="" />

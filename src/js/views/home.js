@@ -14,8 +14,8 @@ export const Home = () => {
       <Selection />
 
       {/* <!-- Search Results --> */}
-      <div className="search-results-full row my-4">
-        <div className="search-results-resources col-3">
+      <div className="search-results-full row my-4 ">
+        <div className="search-results-resources col-3 ">
           <Card
             resName="Resource1"
             resDescription="Open Saturdays 9am-2pm"

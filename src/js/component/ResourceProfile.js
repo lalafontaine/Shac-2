@@ -1,13 +1,24 @@
 import React from "react";
 import StarRating from "./StarRating";
+import logo from  "../../images/urban_partners_logo.png";
 
 export const ResourceProfile = (props) => {
   return (
  
       <div>
         {/* <!-- Card text body --> */}
-        <div class="card-body">
-          {/* <!-- operating hours --> */}
+        <div >
+        <img className="res-profile-logo" src={logo} alt="logo" />
+          <span className="ms-3"><strong>
+            Urban Partners </strong>
+          </span>
+          <div>
+          <StarRating rating="5" />
+          <span>( 84 votes)</span>
+          </div>
+          <p className="p-2">
+            {" "} {props.about}
+          </p>
           <p className="p-2">
             <strong>Hours: </strong> Monday - Friday, 7:00a.m.- 4:30p.m.
           </p>
@@ -27,13 +38,7 @@ export const ResourceProfile = (props) => {
               https://urbanpartnersla.org/{" "}
             </a>
           </p>
-          <p className="p-2">
-            {" "}
-            <strong>About this resource: </strong> {props.about}
-          </p>
 
-          {/* <!-- Star Rating --> */}
-          <StarRating rating="5" />
         </div>
       </div>
   

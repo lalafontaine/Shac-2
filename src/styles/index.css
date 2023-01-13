@@ -6,6 +6,15 @@
     margin: 25px;
 }
 
+.res-profile-title {
+    font-size: x-large;
+}
+
+.report-problem {
+    background-color: lightgreen;
+    color: black;
+}
+
 .translate-button {
     font-size: small;
 }
@@ -13,7 +22,12 @@
 .avatar {
     height: 75px;
     width: 75px;
-    margin-inline-start: 30px;
+    margin-inline-start: 20px;
+}
+
+.navbar-container {
+    border-radius: 20px;
+    color: black;
 }
 
 .navbar-brand {
@@ -22,12 +36,24 @@
     font-size:28px;
 }
 
+.login-button {
+    background-color: lightgreen;
+    color: black;
+}
+
 .resImage {
     width: 50%;
 }
 
+.res-profile-logo {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
 .review {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .res-profile-content {
@@ -38,6 +64,8 @@
     width: 100px;
     height: 50px;
     font-size: small;
+    color: black;
+    background-color: pink;
 }
 
 
