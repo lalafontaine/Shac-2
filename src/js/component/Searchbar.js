@@ -2,8 +2,9 @@ import React from "react";
 
 export const Searchbar = () => {
     return (
-        <div class="row">
-        <form class="d-flex my-4" role="search">
+        <div class="row mx-4 p-3">
+        <div className="col-2"></div>
+        <form class="d-flex col-8" role="search">
           <input
             class="form-control"
             type="search"
@@ -14,6 +15,7 @@ export const Searchbar = () => {
             <i class="fas fa-search"></i>
           </button>
         </form>
+        <div className="col-2"></div>
       </div>
     )
 } 

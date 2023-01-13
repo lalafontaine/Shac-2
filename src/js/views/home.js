@@ -1,47 +1,49 @@
 import React from "react";
-import rigoImage from "/workspace/Shac-2/src/images/rigo-baby.jpg";
-import "../../styles/home.css";
 import SimpleMap from "../component/SimpleMap";
 import { Link } from "react-router-dom";
-import {Searchbar} from "../component/Searchbar";
-import {Card} from "../component/Card"
-import {Selection} from "../component/Selection";
-import {Review} from "../component/Review";
-
+import { Searchbar } from "../component/Searchbar";
+import { Card } from "../component/Card";
+import { Selection } from "../component/Selection";
+import Donate from "../component/Donate";
 
 export const Home = () => {
   return (
-    <div >
-      <div class = "p-5 m-5">
+    <div className="grand-container py-4">
+      <Searchbar />
 
-         {/* <!-- Search Bar--> */}
-        <Searchbar/>
+      <Selection />
 
-        {/* <!-- Selection--> */}
-        <Selection/>
+      {/* <!-- Search Results --> */}
+      <div className="search-results-full row my-4">
+        <div className="search-results-resources col-3">
+          <Card
+            resName="Resource1"
+            resDescription="Open Saturdays 9am-2pm"
+            resWebsite="555-5555"
+            rating="3"
+            profilePic="https://ibb.co/1Xjw9RS"
+            about="Lorem ipsum dolor sit
+            amet, consectetur adipisicing elit. Hic deleniti minus ducimus
+            illo, iure earum enim labore cum! Labore neque sapiente
+            temporibus praesentium! Velit, asperiores voluptatem possimus
+            nulla excepturi ipsa.."
+          />
 
-        {/* <!-- Search Results --> */}
-        <div class="row mb-5">
-          
-          {/* <!-- List of Resources --> */}
-          <div
-            id="list_of_resources"
-            class="col-4 pt-1 justify-content-between"
-          >
-              <Card  resName="Resource 1" resDescription="bla bla" rating="3" image="https://ibb.co/1Xjw9RS"/>
+          <Card
+            resName="Resource2"
+            resDescription="Open Tuesday and Thursday 7am-6pm"
+            rating="2"
+          />
 
-              <Card  resName="Resource 2" rating="2"/>
+          <Card
+            resName="Resource3"
+            resDescription="Open M-F 9am-5pm"
+            rating="1.5"
+          />
+        </div>
 
-              <Card  resName="Resource 3" rating="1.5"/>
-              
-          </div>
-
-          {/* <!-- The map itself! --> */}
-          <div class="d-flex-inline col pt-3 me-2">
-            <div id="googleMap" style={{ width: "100%", height: "100vh" }}>
-              <SimpleMap />
-            </div>
-          </div>
+        <div className="col-9">
+          <SimpleMap />
         </div>
       </div>
     </div>

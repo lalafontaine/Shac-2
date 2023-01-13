@@ -2,20 +2,20 @@ import React from "react";
 import avatar from "../../images/cardiB.jpg";
 import StarRating from "./StarRating";
 
-const Review = () => {
+const Review = (props) => {
   return (
-    <div class="col">
-      <div class="d-flex mt-4 row">
-        <div class="col ps-5">
-          <span class="">This place is the best! </span>
-          <span class="">11/13/21 </span>
-          <StarRating />
+      <div className="review d-flex justify-content-end row align-items-center">
+        <div className="col-5">
+        <span>{props.review}</span>
         </div>
-        <div class="col-3 d-flex justify-content-center">
-          <img class="avatar rounded-circle" src={avatar} alt="" />
+        <div className="col-3">
+        <span className="ms-3">{props.date}</span>
+        <StarRating rating={props.rating} />
+        </div>
+        <div className="col-4">
+        <img className="avatar rounded-circle" src={avatar} alt="" />
         </div>
       </div>
-    </div>
   );
 };
 

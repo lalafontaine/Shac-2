@@ -6,41 +6,30 @@ import profilePic from "../../images/urban_partners.png";
 
 export const Card = (props)=>{
     return (
-        <div class="card w-100 mt-4" style={{ width: "18rem" }}>
-              {/* <!-- Card header --> */}
-              <div id="header" class="d-flex flex-row justify-content-between">
-                
-                {/* <!-- Resource Title --> */}
-                <h4 class="card-title col-6 mt-4">{props.resName}</h4>
+        <div className="card">
 
-                {/* <!-- Resource thumbnail --> */}
+<Link to="/resourcePage"> 
+              <div className="card-header d-flex justify-content-between align-items-center">
+                <h1 class="card-title col-9">{props.resName}</h1>
                 <img
-                  class="img-thumbnail w-25"
+                  className="res-thumbnail col-3"
                   src={logo}
-                  alt="Card logo"
+                  alt="resource logo"
                 />
-
               </div>
 
-              {/* <!-- Card image --> */}
               <img
-                class="card-img-top px-2"
+                className="card-img"
                 src={profilePic}
-                alt="Card image cap"
+                alt="resource profile picture"
               />
-              {/* <!-- Card body --> */}
-              <div class="card-body">
-                <p class="card-text">{props.resDescription}</p>
-                <Link to="/profile">
-                  <a href={props.resWebsite} class="btn btn-primary">
-                    Learn More
-                  </a>
-                </Link>
-
-                {/* <!-- Star Rating --> */}
+              <div className="card-body">
+                <h1 className="card-text">{props.resDescription}</h1>
+                <div>
                 <StarRating rating = {props.rating}/> 
-
+                </div>
               </div>
+              </Link>
         </div>
     );
 };
