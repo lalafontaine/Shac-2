@@ -4,14 +4,17 @@ import Review from "../component/Review";
 import ResourceProfile from "../component/ResourceProfile";
 import { Context } from "../store/appContext";
 import { ResourceHeader } from "../component/ResourceHeader";
-// import "../../styles/demo.css";
+import { WhiteSpace } from "../component/WhiteSpace";
+
 
 export const ResourcePage = (props) => {
   const { store, actions } = useContext(Context);
 
   return (
     <div className="container mt-2">
-      {/* <!-- Donate --> */}
+
+      <WhiteSpace/>
+
       <button type="button" className="btn btn-outline-secondary">
         {" "}
         Back to search results
@@ -27,9 +30,13 @@ export const ResourcePage = (props) => {
         </div>
         <div className="col-6 justify-content-between">
           <ResourceProfile
-            resName="Resource 1"
+            resName="Urban Partners"
+            numberOfVotes="84"
+            hours="Monday - Friday, 7:00a.m.- 4:30p.m."
             resDescription="bla bla"
-            resWebsite="555-5555"
+            address="555 Sunset blvd."
+            phone="555-5555"
+            website="https://urbanpartnersla.org"
             rating="3"
             profilePic="https://ibb.co/1Xjw9RS"
             about="Lorem ipsum dolor sit

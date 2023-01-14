@@ -5,7 +5,7 @@ import Donate from "./Donate";
 export const Navbar = () => {
   return (
     // <!-- nav bar -->
-    <nav className="navbar navbar-expand-lg bg-light m-4">
+    <nav className="navbar navbar-expand-lg bg-light mx-4 p-3 fixed-top">
       <div className="navbar-container container-fluid justify-content-end">
         {/* <!-- Brand --> */}
         <Link to="/">
