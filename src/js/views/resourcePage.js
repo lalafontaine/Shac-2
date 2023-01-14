@@ -15,10 +15,12 @@ export const ResourcePage = (props) => {
 
       <WhiteSpace/>
 
+      <Link to="/">
       <button type="button" className="btn btn-outline-secondary">
         {" "}
         Back to search results
       </button>
+      </Link>
 
       <ResourceHeader resName="Urban Partners" />
 

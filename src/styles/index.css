@@ -6,8 +6,23 @@
   margin: 25px;
 }
 
+.search-results-resources {
+  max-width: 600px;
+  min-height: 600px;
+  border: none;
+}
+
+.carousel-inner {
+max-height: 450px;
+}
+
 .res-profile-title {
-  font-size: x-large;
+  font-size: xx-large;
+  /* font-weight: bold; */
+  padding: 0.2em;
+  color: navy;
+  /* border: 1px solid navy; */
+  
 }
 
 .white-space {
@@ -34,12 +49,14 @@
 }
 
 .navbar-container {
-  border-radius: 20px;
+  max-width: 100%;
+  min-height:100%;
+  border: 1px;
   color: black;
 }
 
 .navbar-brand {
-  color: black;
+  color: navy;
   text-decoration: none;
   font-size: 28px;
 }

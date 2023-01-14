@@ -6,10 +6,10 @@ import profilePic from "../../images/urban_partners.png";
 
 export const Card = (props)=>{
     return (
-        <div className="card">
+        <div className="card mx-auto mb-3">
 
 <Link to="/resourcePage"> 
-              <div className="card-header d-flex justify-content-between align-items-center">
+              <div className="card-header d-flex">
                 <h1 class="card-title col-9">{props.resName}</h1>
                 <img
                   className="res-thumbnail col-3"

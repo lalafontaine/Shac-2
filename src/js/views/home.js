@@ -6,20 +6,18 @@ import { Card } from "../component/Card";
 import { WhiteSpace } from "../component/WhiteSpace";
 import { Selection } from "../component/Selection";
 
-
 export const Home = () => {
   return (
     <div className="grand-container py-4">
-
-      <WhiteSpace/>
+      <WhiteSpace />
 
       <Searchbar />
 
       <Selection />
 
       {/* <!-- Search Results --> */}
-      <div className="search-results-full row my-4 ">
-        <div className="search-results-resources col-3 ">
+      <div className="search-results-full row">
+        <div className="search-results-resources col-3">
           <Card
             resName="Resource1"
             resDescription="Open Saturdays 9am-2pm"
@@ -44,11 +42,12 @@ export const Home = () => {
             resDescription="Open M-F 9am-5pm"
             rating="1.5"
           />
-        </div>
 
-        <div className="col-9">
-          <SimpleMap />
+
         </div>
+        <div className="col-9">
+            <SimpleMap />
+          </div>
       </div>
     </div>
   );

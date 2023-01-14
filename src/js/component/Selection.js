@@ -2,7 +2,7 @@ import React from "react";
 
 export const Selection = () => {
   return (
-    <div className="row mx-4">
+    <div className="row mx-4 my-3">
       <div className="col-2"></div>
       <div className="col-8">
         {/* <!-- What type of resource--> */}
