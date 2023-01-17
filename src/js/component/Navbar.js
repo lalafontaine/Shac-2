@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Donate from "./Donate";
+import {Donate} from "./Donate";
 
 export const Navbar = () => {
   return (
@@ -29,7 +29,7 @@ export const Navbar = () => {
           id="navbarSupportedContent"
         >
           {/* <!-- Donate --> */}
-          {/* <Donate /> */}
+          <Donate />
 
           {/* <!-- Emergency Resources --> */}
           <button type="button" className="emergency-button btn btn-outline-danger me-1">
