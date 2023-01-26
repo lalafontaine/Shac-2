@@ -25,12 +25,14 @@ export const ResourcePage = (props) => {
       <ResourceHeader resName="Urban Partners" />
 
       <div className="res-profile-content row d-flex">
-      <div className="col-6">
+      <div className="col">
           <Review date="1/7/23" review="This place is the best!" rating="5" />
           <Review date="12/13/22" review="Get there early! bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla!" rating="4" />
           <Review date="11/4/22" review="Fresh produce!" rating="5" />
         </div>
-        <div className="col-6 justify-content-between">
+        <div className="col-1">
+          </div>
+        <div className="col justify-content-between">
           <ResourceProfile
             resName="Urban Partners"
             numberOfVotes="84"

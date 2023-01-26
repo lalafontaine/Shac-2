@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 export const Donate = () => {
   return (
     <div>
-      <svg width="120" height="120">
+      <svg width="75" height="120">
         **
         <a href="#">
           **
-          <circle cx="60" cy="60" r="60" fill="#007BFF" />
+          <circle cx="30" cy="60" r="30" fill="#007BFF" />
           <text
-            x="60"
+            x="30"
             y="60"
             fill="#FFFFFF"
             text-anchor="middle"
