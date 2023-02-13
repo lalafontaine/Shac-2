@@ -11,9 +11,10 @@ export const Selection = () => {
             <input
               className="form-check-input"
               type="checkbox"
-              id="flexCheckChecked"
+              id=""
               value=""
-              checked
+              name="selection"
+
             />
             <label class="form-check-label" for="flexCheckChecked">
               All resources
@@ -25,6 +26,7 @@ export const Selection = () => {
               type="checkbox"
               id="food"
               value="food"
+              name="selection"
             />
             <label class="form-check-label" for="food">
               Food
@@ -36,6 +38,7 @@ export const Selection = () => {
               type="checkbox"
               id="shelter"
               value="shelter"
+              name="selection"
             />
             <label class="form-check-label" for="shelter">
               Shelter
@@ -47,6 +50,7 @@ export const Selection = () => {
               type="checkbox"
               id="health"
               value="health"
+              name="selection"
             />
             <label class="form-check-label" for="health">
               Health
@@ -58,6 +62,7 @@ export const Selection = () => {
               type="checkbox"
               id="hygiene"
               value="hygiene"
+              name="selection"
             />
             <label class="form-check-label" for="hygiene">
               Hygiene
@@ -69,6 +74,7 @@ export const Selection = () => {
               type="checkbox"
               id="children"
               value="children"
+              name="selection"
             />
             <label class="form-check-label" for="children">
               For children

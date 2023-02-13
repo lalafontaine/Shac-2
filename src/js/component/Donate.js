@@ -6,14 +6,14 @@ export const Donate = () => {
     <div>
       <svg width="75" height="120">
         **
-        <a href="#">
+        <a style={{textDecoration:"none"}} href="#">
           **
           <circle cx="30" cy="60" r="30" fill="#007BFF" />
           <text
             x="30"
             y="60"
             fill="#FFFFFF"
-            text-anchor="middle"
+            textAnchor="middle"
             alignment-baseline="middle"
           >
             DONATE

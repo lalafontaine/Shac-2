@@ -8,7 +8,7 @@ export const Navbar = () => {
     <nav className="navbar navbar-expand-lg bg-light mx-4 p-3 fixed-top">
       <div className="navbar-container container-fluid justify-content-end">
         {/* <!-- Brand --> */}
-        <Link to="/">
+        <Link style={{textDecoration:"none"}} to="/">
           <h1 className="navbar-brand">AliveInL.A.</h1>
         </Link>
         <button
