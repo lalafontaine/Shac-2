@@ -90,7 +90,6 @@ export const Selection = () => {
               type="checkbox"
               id="flexCheckChecked"
               value=""
-              checked
             />
             <label class="form-check-label" for="flexCheckChecked">
               Anytime
